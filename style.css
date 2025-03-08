@@ -1,26 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .main-container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: .25fr .25fr 1fr 1fr;
 }
 
 header{
     border: 1px solid black;
     background-color: aqua;
+    grid-column: 2 / 4;
 }
 
 nav{
     border: 1px solid black;
-    background-color:fuchsia
+    background-color:fuchsia;
+    grid-column: 2 / 4;
 }
 
 .side-bar{
     border: 1px solid black;
     background-color: chocolate;
+    grid-column: 1 / 2;
+    grid-row: 1/ -1
 }
 
 article{
     border: 1px solid black;
     background-color: darkcyan;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card{
+    border: 1px solid black;
 }
 
 .announcements{
@@ -31,4 +53,5 @@ article{
 .trending{
     border: 1px solid black;
     background-color: yellow;
+    grid-column: 3 / 4;
 }
