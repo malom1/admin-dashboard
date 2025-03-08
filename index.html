@@ -5,33 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c767fd9bc9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main-container">
-        <header>
-            header
+        <header class="top-nav">
+            <div class="top-left-nav">
+                <i class="fa-brands fa-searchengin"></i>
+                <input type="text" placeholder="Search..">
+            </div>
+            <div class="top-right-nav">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-regular fa-face-laugh-beam"></i>
+                <p>Mohammad Alom</p>
+            </div>
         </header>
         <div class="side-bar">
-            <title>Logo</title>
-            <ul class="top-list">
-                <a href="# ">Home</a>
-                <a href="#">Profile</a>
-                <a href="#">Messages</a>
-                <a href="#">History</a>
-                <a href="#">Tasks</a>
-                <a href="#">Communities</a>
-            </ul>
-
-            <ul class="bottom-list">
-                <a href="#">Settings</a>
-                <a href="#">Support</a>
-                <a href="#">Privacy</a>
-            </ul>
+            <h1 class="logo">Logo</h1>
+            <div class="side-bar-container">
+                <div class="side-bar-top">
+                    <ul>
+                        <li><a href="# ">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Tasks</a></li>
+                        <li><a href="#">Communities</a></li>
+                    </ul>
+                </div>
+                <div class="side-bar-bottom">
+                    <ul>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <nav>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+        <nav class="nav-bar">
+            <div class="bottom-left-nav">
+                <i class="fa-regular fa-face-laugh-beam"></i>
+                <p>Hi there,</p>
+                <p>Mohammad Alom (@Mohammad)</p>
+            </div>
+            <div class="bottom-right-nav">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </nav>
         <article>
             <div class="card-container">
@@ -61,8 +82,42 @@
                 </div>
             </div>
         </article>
-        <div class="announcements">announcements</div>
-        <div class="trending">trending</div>
+        <div class="announcements">
+            <div class="announcement-card">
+                <div class="top-announcement">
+                    <h3>Site maintenance</h3>
+                    <p>This is information regarding site maintenance</p>
+                </div>
+                <div class="mid-announcement">
+                    <h3>Community Share Day</h3>
+                    <p>Community share day is very important</p>
+                </div>
+                <div class="bottom-announcement">
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Read all about our update privacy policies</p>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <div class="user-cards">
+                <div class="user-one">
+                    <h3>@teagan</h3>
+                    <p>World Peace Builder</p>
+                </div>
+                <div class="user-two">
+                    <h3>@morgan</h3>
+                    <p>Super Cool Project</p>
+                </div>
+                <div class="user-three">
+                    <h3>@kendall</h3>
+                    <p>Life Changing App</p>
+                </div>
+                <div class="user-four">
+                    <h3>@alex</h3>
+                    <p>No Traffic Maker</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
