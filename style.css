@@ -1,0 +1,34 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+header{
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+nav{
+    border: 1px solid black;
+    background-color:fuchsia
+}
+
+.side-bar{
+    border: 1px solid black;
+    background-color: chocolate;
+}
+
+article{
+    border: 1px solid black;
+    background-color: darkcyan;
+}
+
+.announcements{
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+
+.trending{
+    border: 1px solid black;
+    background-color: yellow;
+}
